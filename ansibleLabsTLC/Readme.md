@@ -30,9 +30,25 @@ nano -w hosts
 ansible-playbook site.yml -i hosts
 ```
 
+IP machine 1 : 127.0.0.1:2222
+IP machine 2 : 127.0.0.1:2200
+
 Essayer d'accéder à http://ADRESSE_IP_DE_VOTRE_VM_WEB/index.php
 
+## Réponses
+Nous avons utilisé VirtualBox avec vagrant au lieu des machines virtuelles de l'istic
+
+Les machines virtuelles se sont lancées sur :
+- 127.0.0.1:2222
+- 127.0.0.1:2200
+
+Pour lancer la dernière commande, nous avons dû désactiver l'identification par clé :
+ansible-playbook site.yml -i hosts --ssh-extra-args="-o StrictHostKeyChecking=no"
+
 ### Tâche 2
+
+## Réponses
+Nous n'avons pas réussi à fair la tâche 2
 
 Créer un nouveau playbook pour installer micok8S sur votre VM.
 
