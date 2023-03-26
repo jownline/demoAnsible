@@ -1,4 +1,4 @@
-## Vous trouverez un compte les réponses de la partie 1 dans le dossier ansibleLabsTLC (nous n'avons pas réussi à faire la partie 2)
+## Vous trouverez un compte rendu des réponses de la partie 1 dans le dossier ansibleLabsTLC (nous n'avons pas réussi à faire la partie 2)
 
 # demoAnsible
 
